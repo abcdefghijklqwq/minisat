@@ -26,6 +26,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 #include <type_traits>
 #include <algorithm>
 #include <functional>
+#include <limits>
 
 #include "minisat/core/ThrowOOMException.h"
 #include "minisat/mtl/IntTypes.h"
