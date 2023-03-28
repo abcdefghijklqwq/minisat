@@ -236,3 +236,6 @@ if (MINISAT_INSTALL)
         DESTINATION ${INSTALL_CONFIGDIR}
     )
 endif()
+
+add_executable(minisat-custom main.cpp)
+target_link_libraries(minisat-custom MiniSat::libminisat)  
